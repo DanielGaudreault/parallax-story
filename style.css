@@ -1,0 +1,51 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  height: 100%;
+  color: #fff;
+}
+
+.parallax-section {
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#section1 {
+  background-image: url('background1.jpg'); /* Replace with your image */
+}
+
+#section2 {
+  background-image: url('background2.jpg'); /* Replace with your image */
+}
+
+#section3 {
+  background-image: url('background3.jpg'); /* Replace with your image */
+}
+
+#section4 {
+  background-image: url('background4.jpg'); /* Replace with your image */
+}
+
+.content {
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for text */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+
+p {
+  font-size: 1.5rem;
+  margin: 10px 0 0;
+}
